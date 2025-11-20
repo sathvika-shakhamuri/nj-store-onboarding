@@ -291,4 +291,3 @@ The competitive landscape data (nearby stores, ratings, store types) is computed
 
 ---
 
-*Built for the RepRally Growth Engineer Challenge*
