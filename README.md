@@ -8,11 +8,18 @@ A value-first onboarding flow designed to help New Jersey store owners instantly
 
 ##  Screenshots
 
-### 📍 Step 1 — Local Market Map
-![Map Screenshot](/map.png)
 
-### 📊 Step 3 — Personalized Insights
-![Insights](/instant-insights.png)
+### Step 1 — Local Market Overview
+<p align="center">
+  <img src="./instant-insights.png" alt="Local market insights" width="480" style="border-radius: 8px; border: 1px solid #ddd;" />
+</p>
+
+### Step 1 — Interactive Competitive Map
+<p align="center">
+  <img src="./map.png" alt="Competitive map" width="520" style="border-radius: 8px; border: 1px solid #ddd;" />
+</p>
+
+
 
 ---
 
