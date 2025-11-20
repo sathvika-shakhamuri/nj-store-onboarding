@@ -23,7 +23,7 @@ function App() {
     timePreference: '',
   })
 
-  // Onboarding start + abandonment tracking
+  
   useEffect(() => {
     analytics.onboardingStarted()
     analytics.trackPageView('onboarding_start')
@@ -41,10 +41,10 @@ function App() {
 
     window.addEventListener('beforeunload', handleBeforeUnload)
     return () => window.removeEventListener('beforeunload', handleBeforeUnload)
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    
   }, [])
 
-  // NEW: Track when each step is *viewed*
+  
   useEffect(() => {
     analytics.stepViewed(currentStep, {
       store_type: formData.storeType,
@@ -90,7 +90,7 @@ function App() {
     setCurrentStep(step)
   }
 
-  // width of the *active* part of the line
+  
   const activeLineWidth =
     currentStep === 1 ? '0%' : currentStep === 2 ? '50%' : '100%'
 
@@ -101,7 +101,7 @@ function App() {
         <div className="mb-8">
           <div className="flex items-center justify-center mb-6">
             <img
-              src="/reprally-logo.png"
+              src="/data/reprally-logo.png"
               alt="RepRally"
               className="h-12 w-auto"
             />
@@ -122,16 +122,16 @@ function App() {
         <div className="max-w-3xl mx-auto mb-8">
           <div className="relative flex items-center justify-between">
 
-            {/* Base line (light gray, full width under circles) */}
+            {/* Base line */}
             <div className="absolute left-0 right-0 top-5 h-[2px] bg-gray-300" />
 
-            {/* Active line (green, from step 1 to current step) */}
+            {/* Active line */}
             <div
               className="absolute left-0 top-5 h-[2px] bg-green-700 transition-all duration-500"
               style={{ width: activeLineWidth }}
             />
 
-            {/* Step circles + labels (sit on top of the line) */}
+            {/* Step circles + labels  */}
             {[1, 2, 3].map((step) => (
               <div
                 key={step}
