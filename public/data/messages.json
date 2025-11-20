@@ -1,0 +1,37 @@
+{
+  "grocery": {
+    "welcome": "Welcome to the network. You're joining {count} grocery stores serving communities across New Jersey.",
+    "insight": "Grocery stores in your area average {rating} stars. Customers prioritize fresh selection, local sourcing, and convenient shopping experiences.",
+    "opportunity": "Your area shows strong demand for specialty and health-focused products. {percentage}% of nearby competitors don't emphasize organic or local options."
+  },
+  "convenience": {
+    "welcome": "Welcome to the network. You're joining {count} convenience stores serving on-the-go customers daily.",
+    "insight": "Convenience stores in your area average {rating} stars. Fast checkout and fresh food options are key differentiators.",
+    "opportunity": "Peak demand periods in your area are 7-9am and 5-7pm. Prepared food and beverage programs can increase transaction values significantly."
+  },
+  "foodservice": {
+    "welcome": "Welcome to the network. You're joining {count} food service establishments delighting customers across New Jersey.",
+    "insight": "Restaurants and cafes in your area average {rating} stars. Menu variety, dietary options, and atmosphere drive customer loyalty.",
+    "opportunity": "Your demographic shows strong preference for diverse cuisines and health-conscious options. Digital ordering capabilities are becoming table stakes."
+  },
+  "gas": {
+    "welcome": "Welcome to the network. You're joining {count} fuel stations serving drivers throughout New Jersey.",
+    "insight": "Gas stations in your area average {rating} stars. Clean facilities, loyalty programs, and convenience offerings matter most to customers.",
+    "opportunity": "Stations with attached convenience stores see 60% higher per-visit revenue. Your area also shows growing interest in EV charging infrastructure."
+  },
+  "liquor": {
+    "welcome": "Welcome to the network. You're joining {count} wine and spirits retailers across New Jersey.",
+    "insight": "Liquor stores in your area average {rating} stars. Selection depth, knowledgeable staff, and discovery experiences drive repeat business.",
+    "opportunity": "Your demographic favors craft and local products over mass-market brands. Curated selections and tasting events differentiate top performers."
+  },
+  "tobacco_smoke": {
+    "welcome": "Welcome to the network. You're joining {count} specialty tobacco retailers in New Jersey.",
+    "insight": "Specialty stores in your area average {rating} stars. Product variety, compliance excellence, and customer service drive loyalty.",
+    "opportunity": "Alternative product categories are growing fastest in your market. Premium positioning maintains margins in competitive environments."
+  },
+  "other": {
+    "welcome": "Welcome to the network. You're joining {count} diverse businesses across New Jersey.",
+    "insight": "Businesses in your area average {rating} stars. Unique offerings and exceptional service drive customer loyalty and word-of-mouth.",
+    "opportunity": "Specialty positioning helps you stand out. Your market shows demand for differentiated experiences and products."
+  }
+}

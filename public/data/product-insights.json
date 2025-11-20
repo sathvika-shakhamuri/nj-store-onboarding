@@ -1,0 +1,65 @@
+{
+  "snacks": {
+    "related": "beverages",
+    "trends": [
+      "Better-for-you snacks (protein bars, trail mix) up 40% in your area",
+      "Combo promotions (snack + drink) increase basket size 25%",
+      "Local and artisan brands outperforming national chains"
+    ]
+  },
+  "beverages": {
+    "related": "snacks",
+    "trends": [
+      "Energy drinks and functional beverages growing 45% year-over-year",
+      "Cold brew and specialty coffee driving premium pricing",
+      "Local craft beverages resonate with your demographic"
+    ]
+  },
+  "prepared_foods": {
+    "related": "meal_solutions",
+    "trends": [
+      "Grab-and-go breakfast up 35% as customers seek convenience",
+      "Dinner solutions (meal kits, heat-and-eat) peak 5-7pm",
+      "Health-conscious options command 30% premium pricing"
+    ]
+  },
+  "organic": {
+    "related": "health_wellness",
+    "trends": [
+      "Organic produce demand 40% above state average in your ZIP",
+      "Sustainable packaging increasingly important to customers",
+      "Local farm partnerships create differentiation and loyalty"
+    ]
+  },
+  "alcohol": {
+    "related": "specialty_items",
+    "trends": [
+      "Craft spirits and local distilleries up 40% vs national brands",
+      "Wine education and pairing suggestions increase transaction value",
+      "Limited releases and hard-to-find products drive destination shopping"
+    ]
+  },
+  "tobacco_vape": {
+    "related": "alternative_products",
+    "trends": [
+      "Alternative nicotine products fastest-growing segment",
+      "Premium product mix maintains margins while serving demand",
+      "Compliance excellence builds customer trust and loyalty"
+    ]
+  },
+  "fuel": {
+    "related": "convenience_items",
+    "trends": [
+      "Loyalty programs increase repeat visits by 35%",
+      "Convenience store attachment boosts per-visit revenue 60%",
+      "Premium fuel and car wash services create additional revenue"
+    ]
+  },
+  "default": {
+    "trends": [
+      "Customer experience and service quality drive loyalty in your market",
+      "Unique product selection creates word-of-mouth marketing",
+      "Digital presence increasingly important for discovery and engagement"
+    ]
+  }
+}

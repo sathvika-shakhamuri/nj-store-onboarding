@@ -1,0 +1,971 @@
+{
+  "07052": {
+    "avg_rating": 4.2,
+    "store_count": 799,
+    "top_types": [
+      [
+        "grocery",
+        169
+      ],
+      [
+        "convenience",
+        146
+      ],
+      [
+        "gas",
+        143
+      ]
+    ],
+    "demographic": "predominantly white",
+    "nearby_5mi": 799,
+    "trends": {
+      "grocery": [
+        "Plant-based alternatives growing 2x faster than conventional products",
+        "Weekend shopping patterns show 40% increase vs weekdays",
+        "Prepared meal sections driving premium basket sizes"
+      ],
+      "convenience": [
+        "Beverage and snack combo promotions increase basket size by 25%",
+        "Mobile payment adoption at 65% in your area",
+        "Fresh food offerings differentiate top-performing stores"
+      ],
+      "foodservice": [
+        "Online ordering and delivery now 55% of orders for area restaurants",
+        "Weekend brunch driving 30% higher customer ratings and repeat visits",
+        "Instagram-worthy presentation increases social sharing and discovery"
+      ],
+      "gas": [
+        "Loyalty programs drive 35% increase in repeat customer visits",
+        "Car wash services create additional revenue streams",
+        "EV charging inquiries up 50% year-over-year in NJ"
+      ],
+      "liquor": [
+        "Curated selections outperform bulk discount strategies",
+        "Specialty and hard-to-find products create destination shopping",
+        "Tasting events and education increase average transaction by 35%"
+      ],
+      "tobacco_smoke": [
+        "Loyalty programs critical for customer retention in competitive markets",
+        "Compliance and age verification top customer trust factors",
+        "Alternative nicotine products fastest-growing category"
+      ],
+      "other": [
+        "Specialty positioning helps differentiate in competitive markets",
+        "Community engagement programs increase customer loyalty",
+        "Flexible hours aligned with local customer patterns optimize staffing"
+      ]
+    }
+  },
+  "07004": {
+    "avg_rating": 4.22,
+    "store_count": 1652,
+    "top_types": [
+      [
+        "grocery",
+        472
+      ],
+      [
+        "convenience",
+        358
+      ],
+      [
+        "gas",
+        232
+      ]
+    ],
+    "demographic": "majority hispanic",
+    "nearby_5mi": 1652,
+    "trends": {
+      "grocery": [
+        "Online ordering adoption at 45% among customers in your demographic",
+        "Plant-based alternatives growing 2x faster than conventional products",
+        "Weekend shopping patterns show 40% increase vs weekdays"
+      ],
+      "convenience": [
+        "Peak traffic windows: 7-9am and 5-7pm on weekdays",
+        "Ready-to-eat meals account for 40% of convenience store revenue growth",
+        "Fresh food offerings differentiate top-performing stores"
+      ],
+      "foodservice": [
+        "Online ordering and delivery now 55% of orders for area restaurants",
+        "Dietary accommodations (vegan, gluten-free) correlate with 45% more reviews",
+        "Weekend brunch driving 30% higher customer ratings and repeat visits"
+      ],
+      "gas": [
+        "Car wash services create additional revenue streams",
+        "EV charging inquiries up 50% year-over-year in NJ",
+        "Convenience store attachment increases per-visit revenue by 60%"
+      ],
+      "liquor": [
+        "Craft spirits and local distillery products trending 40% above national brands",
+        "Tasting events and education increase average transaction by 35%",
+        "Curated selections outperform bulk discount strategies"
+      ],
+      "tobacco_smoke": [
+        "Compliance and age verification top customer trust factors",
+        "Premium product mix increases margins while maintaining volume",
+        "Loyalty programs critical for customer retention in competitive markets"
+      ],
+      "other": [
+        "Specialty positioning helps differentiate in competitive markets",
+        "Flexible hours aligned with local customer patterns optimize staffing",
+        "Unique product selection creates word-of-mouth marketing"
+      ]
+    }
+  },
+  "07302": {
+    "avg_rating": 4.22,
+    "store_count": 6038,
+    "top_types": [
+      [
+        "grocery",
+        1317
+      ],
+      [
+        "convenience",
+        1233
+      ],
+      [
+        "gas",
+        863
+      ]
+    ],
+    "demographic": "predominantly white",
+    "nearby_5mi": 6038,
+    "trends": {
+      "grocery": [
+        "Plant-based alternatives growing 2x faster than conventional products",
+        "Weekend shopping patterns show 40% increase vs weekdays",
+        "Organic and locally-sourced products seeing 35% higher demand in your area"
+      ],
+      "convenience": [
+        "Beverage and snack combo promotions increase basket size by 25%",
+        "Peak traffic windows: 7-9am and 5-7pm on weekdays",
+        "Fresh food offerings differentiate top-performing stores"
+      ],
+      "foodservice": [
+        "Ethnic and fusion concepts rated 4.5+ stars in your market",
+        "Instagram-worthy presentation increases social sharing and discovery",
+        "Dietary accommodations (vegan, gluten-free) correlate with 45% more reviews"
+      ],
+      "gas": [
+        "Convenience store attachment increases per-visit revenue by 60%",
+        "Premium fuel mix: 30% of transactions in your demographic",
+        "EV charging inquiries up 50% year-over-year in NJ"
+      ],
+      "liquor": [
+        "Curated selections outperform bulk discount strategies",
+        "Craft spirits and local distillery products trending 40% above national brands",
+        "Specialty and hard-to-find products create destination shopping"
+      ],
+      "tobacco_smoke": [
+        "Loyalty programs critical for customer retention in competitive markets",
+        "Alternative nicotine products fastest-growing category",
+        "Premium product mix increases margins while maintaining volume"
+      ],
+      "other": [
+        "Unique product selection creates word-of-mouth marketing",
+        "Flexible hours aligned with local customer patterns optimize staffing",
+        "Community engagement programs increase customer loyalty"
+      ]
+    }
+  },
+  "07442": {
+    "avg_rating": 4.23,
+    "store_count": 1353,
+    "top_types": [
+      [
+        "gas",
+        309
+      ],
+      [
+        "convenience",
+        225
+      ],
+      [
+        "foodservice",
+        215
+      ]
+    ],
+    "demographic": "predominantly white",
+    "nearby_5mi": 1353,
+    "trends": {
+      "grocery": [
+        "Organic and locally-sourced products seeing 35% higher demand in your area",
+        "Prepared meal sections driving premium basket sizes",
+        "Plant-based alternatives growing 2x faster than conventional products"
+      ],
+      "convenience": [
+        "Fresh food offerings differentiate top-performing stores",
+        "Mobile payment adoption at 65% in your area",
+        "Beverage and snack combo promotions increase basket size by 25%"
+      ],
+      "foodservice": [
+        "Online ordering and delivery now 55% of orders for area restaurants",
+        "Instagram-worthy presentation increases social sharing and discovery",
+        "Ethnic and fusion concepts rated 4.5+ stars in your market"
+      ],
+      "gas": [
+        "Convenience store attachment increases per-visit revenue by 60%",
+        "Premium fuel mix: 30% of transactions in your demographic",
+        "Loyalty programs drive 35% increase in repeat customer visits"
+      ],
+      "liquor": [
+        "Tasting events and education increase average transaction by 35%",
+        "Wine club memberships drive predictable recurring revenue",
+        "Specialty and hard-to-find products create destination shopping"
+      ],
+      "tobacco_smoke": [
+        "Accessory and complementary products drive incremental sales",
+        "Loyalty programs critical for customer retention in competitive markets",
+        "Compliance and age verification top customer trust factors"
+      ],
+      "other": [
+        "Unique product selection creates word-of-mouth marketing",
+        "Community engagement programs increase customer loyalty",
+        "Online presence drives 40% of foot traffic for specialty retail"
+      ]
+    }
+  },
+  "07024": {
+    "avg_rating": 4.21,
+    "store_count": 1556,
+    "top_types": [
+      [
+        "grocery",
+        344
+      ],
+      [
+        "gas",
+        300
+      ],
+      [
+        "convenience",
+        288
+      ]
+    ],
+    "demographic": "majority white",
+    "nearby_5mi": 1556,
+    "trends": {
+      "grocery": [
+        "Online ordering adoption at 45% among customers in your demographic",
+        "Organic and locally-sourced products seeing 35% higher demand in your area",
+        "Plant-based alternatives growing 2x faster than conventional products"
+      ],
+      "convenience": [
+        "Beverage and snack combo promotions increase basket size by 25%",
+        "Peak traffic windows: 7-9am and 5-7pm on weekdays",
+        "Ready-to-eat meals account for 40% of convenience store revenue growth"
+      ],
+      "foodservice": [
+        "Ethnic and fusion concepts rated 4.5+ stars in your market",
+        "Weekend brunch driving 30% higher customer ratings and repeat visits",
+        "Instagram-worthy presentation increases social sharing and discovery"
+      ],
+      "gas": [
+        "Convenience store attachment increases per-visit revenue by 60%",
+        "EV charging inquiries up 50% year-over-year in NJ",
+        "Premium fuel mix: 30% of transactions in your demographic"
+      ],
+      "liquor": [
+        "Curated selections outperform bulk discount strategies",
+        "Craft spirits and local distillery products trending 40% above national brands",
+        "Specialty and hard-to-find products create destination shopping"
+      ],
+      "tobacco_smoke": [
+        "Loyalty programs critical for customer retention in competitive markets",
+        "Accessory and complementary products drive incremental sales",
+        "Alternative nicotine products fastest-growing category"
+      ],
+      "other": [
+        "Flexible hours aligned with local customer patterns optimize staffing",
+        "Unique product selection creates word-of-mouth marketing",
+        "Specialty positioning helps differentiate in competitive markets"
+      ]
+    }
+  },
+  "08854": {
+    "avg_rating": 4.21,
+    "store_count": 823,
+    "top_types": [
+      [
+        "convenience",
+        189
+      ],
+      [
+        "gas",
+        146
+      ],
+      [
+        "grocery",
+        131
+      ]
+    ],
+    "demographic": "predominantly white",
+    "nearby_5mi": 823,
+    "trends": {
+      "grocery": [
+        "Prepared meal sections driving premium basket sizes",
+        "Plant-based alternatives growing 2x faster than conventional products",
+        "Online ordering adoption at 45% among customers in your demographic"
+      ],
+      "convenience": [
+        "Beverage and snack combo promotions increase basket size by 25%",
+        "Ready-to-eat meals account for 40% of convenience store revenue growth",
+        "Peak traffic windows: 7-9am and 5-7pm on weekdays"
+      ],
+      "foodservice": [
+        "Ethnic and fusion concepts rated 4.5+ stars in your market",
+        "Weekend brunch driving 30% higher customer ratings and repeat visits",
+        "Instagram-worthy presentation increases social sharing and discovery"
+      ],
+      "gas": [
+        "Loyalty programs drive 35% increase in repeat customer visits",
+        "Car wash services create additional revenue streams",
+        "Premium fuel mix: 30% of transactions in your demographic"
+      ],
+      "liquor": [
+        "Specialty and hard-to-find products create destination shopping",
+        "Curated selections outperform bulk discount strategies",
+        "Craft spirits and local distillery products trending 40% above national brands"
+      ],
+      "tobacco_smoke": [
+        "Compliance and age verification top customer trust factors",
+        "Accessory and complementary products drive incremental sales",
+        "Alternative nicotine products fastest-growing category"
+      ],
+      "other": [
+        "Unique product selection creates word-of-mouth marketing",
+        "Community engagement programs increase customer loyalty",
+        "Flexible hours aligned with local customer patterns optimize staffing"
+      ]
+    }
+  },
+  "07753": {
+    "avg_rating": 4.21,
+    "store_count": 401,
+    "top_types": [
+      [
+        "convenience",
+        81
+      ],
+      [
+        "foodservice",
+        69
+      ],
+      [
+        "grocery",
+        59
+      ]
+    ],
+    "demographic": "majority white",
+    "nearby_5mi": 401,
+    "trends": {
+      "grocery": [
+        "Organic and locally-sourced products seeing 35% higher demand in your area",
+        "Online ordering adoption at 45% among customers in your demographic",
+        "Prepared meal sections driving premium basket sizes"
+      ],
+      "convenience": [
+        "Ready-to-eat meals account for 40% of convenience store revenue growth",
+        "Beverage and snack combo promotions increase basket size by 25%",
+        "Peak traffic windows: 7-9am and 5-7pm on weekdays"
+      ],
+      "foodservice": [
+        "Weekend brunch driving 30% higher customer ratings and repeat visits",
+        "Instagram-worthy presentation increases social sharing and discovery",
+        "Ethnic and fusion concepts rated 4.5+ stars in your market"
+      ],
+      "gas": [
+        "Car wash services create additional revenue streams",
+        "Loyalty programs drive 35% increase in repeat customer visits",
+        "Convenience store attachment increases per-visit revenue by 60%"
+      ],
+      "liquor": [
+        "Wine club memberships drive predictable recurring revenue",
+        "Specialty and hard-to-find products create destination shopping",
+        "Curated selections outperform bulk discount strategies"
+      ],
+      "tobacco_smoke": [
+        "Compliance and age verification top customer trust factors",
+        "Accessory and complementary products drive incremental sales",
+        "Premium product mix increases margins while maintaining volume"
+      ],
+      "other": [
+        "Online presence drives 40% of foot traffic for specialty retail",
+        "Community engagement programs increase customer loyalty",
+        "Specialty positioning helps differentiate in competitive markets"
+      ]
+    }
+  },
+  "07030": {
+    "avg_rating": 4.22,
+    "store_count": 745,
+    "top_types": [
+      [
+        "convenience",
+        208
+      ],
+      [
+        "grocery",
+        183
+      ],
+      [
+        "gas",
+        102
+      ]
+    ],
+    "demographic": "predominantly hispanic",
+    "nearby_5mi": 745,
+    "trends": {
+      "grocery": [
+        "Weekend shopping patterns show 40% increase vs weekdays",
+        "Organic and locally-sourced products seeing 35% higher demand in your area",
+        "Prepared meal sections driving premium basket sizes"
+      ],
+      "convenience": [
+        "Mobile payment adoption at 65% in your area",
+        "Fresh food offerings differentiate top-performing stores",
+        "Peak traffic windows: 7-9am and 5-7pm on weekdays"
+      ],
+      "foodservice": [
+        "Online ordering and delivery now 55% of orders for area restaurants",
+        "Ethnic and fusion concepts rated 4.5+ stars in your market",
+        "Instagram-worthy presentation increases social sharing and discovery"
+      ],
+      "gas": [
+        "Premium fuel mix: 30% of transactions in your demographic",
+        "EV charging inquiries up 50% year-over-year in NJ",
+        "Car wash services create additional revenue streams"
+      ],
+      "liquor": [
+        "Specialty and hard-to-find products create destination shopping",
+        "Curated selections outperform bulk discount strategies",
+        "Craft spirits and local distillery products trending 40% above national brands"
+      ],
+      "tobacco_smoke": [
+        "Accessory and complementary products drive incremental sales",
+        "Compliance and age verification top customer trust factors",
+        "Premium product mix increases margins while maintaining volume"
+      ],
+      "other": [
+        "Community engagement programs increase customer loyalty",
+        "Flexible hours aligned with local customer patterns optimize staffing",
+        "Unique product selection creates word-of-mouth marketing"
+      ]
+    }
+  },
+  "08701": {
+    "avg_rating": 4.26,
+    "store_count": 479,
+    "top_types": [
+      [
+        "foodservice",
+        101
+      ],
+      [
+        "convenience",
+        87
+      ],
+      [
+        "gas",
+        74
+      ]
+    ],
+    "demographic": "predominantly white",
+    "nearby_5mi": 479,
+    "trends": {
+      "grocery": [
+        "Plant-based alternatives growing 2x faster than conventional products",
+        "Online ordering adoption at 45% among customers in your demographic",
+        "Prepared meal sections driving premium basket sizes"
+      ],
+      "convenience": [
+        "Mobile payment adoption at 65% in your area",
+        "Beverage and snack combo promotions increase basket size by 25%",
+        "Ready-to-eat meals account for 40% of convenience store revenue growth"
+      ],
+      "foodservice": [
+        "Weekend brunch driving 30% higher customer ratings and repeat visits",
+        "Ethnic and fusion concepts rated 4.5+ stars in your market",
+        "Instagram-worthy presentation increases social sharing and discovery"
+      ],
+      "gas": [
+        "Convenience store attachment increases per-visit revenue by 60%",
+        "EV charging inquiries up 50% year-over-year in NJ",
+        "Loyalty programs drive 35% increase in repeat customer visits"
+      ],
+      "liquor": [
+        "Craft spirits and local distillery products trending 40% above national brands",
+        "Wine club memberships drive predictable recurring revenue",
+        "Specialty and hard-to-find products create destination shopping"
+      ],
+      "tobacco_smoke": [
+        "Premium product mix increases margins while maintaining volume",
+        "Accessory and complementary products drive incremental sales",
+        "Alternative nicotine products fastest-growing category"
+      ],
+      "other": [
+        "Specialty positioning helps differentiate in competitive markets",
+        "Unique product selection creates word-of-mouth marketing",
+        "Flexible hours aligned with local customer patterns optimize staffing"
+      ]
+    }
+  },
+  "08016": {
+    "avg_rating": 4.16,
+    "store_count": 1060,
+    "top_types": [
+      [
+        "grocery",
+        230
+      ],
+      [
+        "convenience",
+        214
+      ],
+      [
+        "gas",
+        204
+      ]
+    ],
+    "demographic": "predominantly white",
+    "nearby_5mi": 1060,
+    "trends": {
+      "grocery": [
+        "Online ordering adoption at 45% among customers in your demographic",
+        "Organic and locally-sourced products seeing 35% higher demand in your area",
+        "Weekend shopping patterns show 40% increase vs weekdays"
+      ],
+      "convenience": [
+        "Beverage and snack combo promotions increase basket size by 25%",
+        "Fresh food offerings differentiate top-performing stores",
+        "Ready-to-eat meals account for 40% of convenience store revenue growth"
+      ],
+      "foodservice": [
+        "Instagram-worthy presentation increases social sharing and discovery",
+        "Weekend brunch driving 30% higher customer ratings and repeat visits",
+        "Dietary accommodations (vegan, gluten-free) correlate with 45% more reviews"
+      ],
+      "gas": [
+        "EV charging inquiries up 50% year-over-year in NJ",
+        "Loyalty programs drive 35% increase in repeat customer visits",
+        "Convenience store attachment increases per-visit revenue by 60%"
+      ],
+      "liquor": [
+        "Tasting events and education increase average transaction by 35%",
+        "Specialty and hard-to-find products create destination shopping",
+        "Wine club memberships drive predictable recurring revenue"
+      ],
+      "tobacco_smoke": [
+        "Premium product mix increases margins while maintaining volume",
+        "Accessory and complementary products drive incremental sales",
+        "Alternative nicotine products fastest-growing category"
+      ],
+      "other": [
+        "Community engagement programs increase customer loyalty",
+        "Flexible hours aligned with local customer patterns optimize staffing",
+        "Specialty positioning helps differentiate in competitive markets"
+      ]
+    }
+  },
+  "08401": {
+    "avg_rating": 4.24,
+    "store_count": 476,
+    "top_types": [
+      [
+        "grocery",
+        96
+      ],
+      [
+        "convenience",
+        91
+      ],
+      [
+        "foodservice",
+        85
+      ]
+    ],
+    "demographic": "mixed hispanic/black",
+    "nearby_5mi": 476,
+    "trends": {
+      "grocery": [
+        "Weekend shopping patterns show 40% increase vs weekdays",
+        "Online ordering adoption at 45% among customers in your demographic",
+        "Prepared meal sections driving premium basket sizes"
+      ],
+      "convenience": [
+        "Ready-to-eat meals account for 40% of convenience store revenue growth",
+        "Peak traffic windows: 7-9am and 5-7pm on weekdays",
+        "Beverage and snack combo promotions increase basket size by 25%"
+      ],
+      "foodservice": [
+        "Dietary accommodations (vegan, gluten-free) correlate with 45% more reviews",
+        "Ethnic and fusion concepts rated 4.5+ stars in your market",
+        "Weekend brunch driving 30% higher customer ratings and repeat visits"
+      ],
+      "gas": [
+        "Convenience store attachment increases per-visit revenue by 60%",
+        "Loyalty programs drive 35% increase in repeat customer visits",
+        "EV charging inquiries up 50% year-over-year in NJ"
+      ],
+      "liquor": [
+        "Craft spirits and local distillery products trending 40% above national brands",
+        "Specialty and hard-to-find products create destination shopping",
+        "Tasting events and education increase average transaction by 35%"
+      ],
+      "tobacco_smoke": [
+        "Alternative nicotine products fastest-growing category",
+        "Premium product mix increases margins while maintaining volume",
+        "Loyalty programs critical for customer retention in competitive markets"
+      ],
+      "other": [
+        "Flexible hours aligned with local customer patterns optimize staffing",
+        "Online presence drives 40% of foot traffic for specialty retail",
+        "Specialty positioning helps differentiate in competitive markets"
+      ]
+    }
+  },
+  "08822": {
+    "avg_rating": 4.22,
+    "store_count": 310,
+    "top_types": [
+      [
+        "grocery",
+        63
+      ],
+      [
+        "gas",
+        63
+      ],
+      [
+        "foodservice",
+        52
+      ]
+    ],
+    "demographic": "predominantly white",
+    "nearby_5mi": 310,
+    "trends": {
+      "grocery": [
+        "Plant-based alternatives growing 2x faster than conventional products",
+        "Online ordering adoption at 45% among customers in your demographic",
+        "Prepared meal sections driving premium basket sizes"
+      ],
+      "convenience": [
+        "Ready-to-eat meals account for 40% of convenience store revenue growth",
+        "Peak traffic windows: 7-9am and 5-7pm on weekdays",
+        "Beverage and snack combo promotions increase basket size by 25%"
+      ],
+      "foodservice": [
+        "Weekend brunch driving 30% higher customer ratings and repeat visits",
+        "Online ordering and delivery now 55% of orders for area restaurants",
+        "Dietary accommodations (vegan, gluten-free) correlate with 45% more reviews"
+      ],
+      "gas": [
+        "EV charging inquiries up 50% year-over-year in NJ",
+        "Loyalty programs drive 35% increase in repeat customer visits",
+        "Car wash services create additional revenue streams"
+      ],
+      "liquor": [
+        "Craft spirits and local distillery products trending 40% above national brands",
+        "Curated selections outperform bulk discount strategies",
+        "Wine club memberships drive predictable recurring revenue"
+      ],
+      "tobacco_smoke": [
+        "Compliance and age verification top customer trust factors",
+        "Premium product mix increases margins while maintaining volume",
+        "Loyalty programs critical for customer retention in competitive markets"
+      ],
+      "other": [
+        "Community engagement programs increase customer loyalty",
+        "Online presence drives 40% of foot traffic for specialty retail",
+        "Flexible hours aligned with local customer patterns optimize staffing"
+      ]
+    }
+  },
+  "08558": {
+    "avg_rating": 4.26,
+    "store_count": 524,
+    "top_types": [
+      [
+        "foodservice",
+        106
+      ],
+      [
+        "gas",
+        103
+      ],
+      [
+        "convenience",
+        76
+      ]
+    ],
+    "demographic": "majority white",
+    "nearby_5mi": 524,
+    "trends": {
+      "grocery": [
+        "Weekend shopping patterns show 40% increase vs weekdays",
+        "Plant-based alternatives growing 2x faster than conventional products",
+        "Prepared meal sections driving premium basket sizes"
+      ],
+      "convenience": [
+        "Mobile payment adoption at 65% in your area",
+        "Fresh food offerings differentiate top-performing stores",
+        "Beverage and snack combo promotions increase basket size by 25%"
+      ],
+      "foodservice": [
+        "Instagram-worthy presentation increases social sharing and discovery",
+        "Dietary accommodations (vegan, gluten-free) correlate with 45% more reviews",
+        "Weekend brunch driving 30% higher customer ratings and repeat visits"
+      ],
+      "gas": [
+        "Convenience store attachment increases per-visit revenue by 60%",
+        "Loyalty programs drive 35% increase in repeat customer visits",
+        "EV charging inquiries up 50% year-over-year in NJ"
+      ],
+      "liquor": [
+        "Tasting events and education increase average transaction by 35%",
+        "Craft spirits and local distillery products trending 40% above national brands",
+        "Specialty and hard-to-find products create destination shopping"
+      ],
+      "tobacco_smoke": [
+        "Loyalty programs critical for customer retention in competitive markets",
+        "Alternative nicotine products fastest-growing category",
+        "Accessory and complementary products drive incremental sales"
+      ],
+      "other": [
+        "Unique product selection creates word-of-mouth marketing",
+        "Specialty positioning helps differentiate in competitive markets",
+        "Online presence drives 40% of foot traffic for specialty retail"
+      ]
+    }
+  },
+  "08204": {
+    "avg_rating": 4.28,
+    "store_count": 337,
+    "top_types": [
+      [
+        "grocery",
+        86
+      ],
+      [
+        "other",
+        60
+      ],
+      [
+        "convenience",
+        49
+      ]
+    ],
+    "demographic": "predominantly white",
+    "nearby_5mi": 337,
+    "trends": {
+      "grocery": [
+        "Prepared meal sections driving premium basket sizes",
+        "Weekend shopping patterns show 40% increase vs weekdays",
+        "Plant-based alternatives growing 2x faster than conventional products"
+      ],
+      "convenience": [
+        "Fresh food offerings differentiate top-performing stores",
+        "Peak traffic windows: 7-9am and 5-7pm on weekdays",
+        "Ready-to-eat meals account for 40% of convenience store revenue growth"
+      ],
+      "foodservice": [
+        "Weekend brunch driving 30% higher customer ratings and repeat visits",
+        "Instagram-worthy presentation increases social sharing and discovery",
+        "Ethnic and fusion concepts rated 4.5+ stars in your market"
+      ],
+      "gas": [
+        "EV charging inquiries up 50% year-over-year in NJ",
+        "Premium fuel mix: 30% of transactions in your demographic",
+        "Loyalty programs drive 35% increase in repeat customer visits"
+      ],
+      "liquor": [
+        "Craft spirits and local distillery products trending 40% above national brands",
+        "Curated selections outperform bulk discount strategies",
+        "Tasting events and education increase average transaction by 35%"
+      ],
+      "tobacco_smoke": [
+        "Alternative nicotine products fastest-growing category",
+        "Accessory and complementary products drive incremental sales",
+        "Loyalty programs critical for customer retention in competitive markets"
+      ],
+      "other": [
+        "Online presence drives 40% of foot traffic for specialty retail",
+        "Community engagement programs increase customer loyalty",
+        "Flexible hours aligned with local customer patterns optimize staffing"
+      ]
+    }
+  },
+  "07901": {
+    "avg_rating": 4.24,
+    "store_count": 466,
+    "top_types": [
+      [
+        "gas",
+        114
+      ],
+      [
+        "foodservice",
+        98
+      ],
+      [
+        "grocery",
+        67
+      ]
+    ],
+    "demographic": "predominantly white",
+    "nearby_5mi": 466,
+    "trends": {
+      "grocery": [
+        "Prepared meal sections driving premium basket sizes",
+        "Organic and locally-sourced products seeing 35% higher demand in your area",
+        "Online ordering adoption at 45% among customers in your demographic"
+      ],
+      "convenience": [
+        "Fresh food offerings differentiate top-performing stores",
+        "Peak traffic windows: 7-9am and 5-7pm on weekdays",
+        "Beverage and snack combo promotions increase basket size by 25%"
+      ],
+      "foodservice": [
+        "Online ordering and delivery now 55% of orders for area restaurants",
+        "Dietary accommodations (vegan, gluten-free) correlate with 45% more reviews",
+        "Ethnic and fusion concepts rated 4.5+ stars in your market"
+      ],
+      "gas": [
+        "Car wash services create additional revenue streams",
+        "Loyalty programs drive 35% increase in repeat customer visits",
+        "EV charging inquiries up 50% year-over-year in NJ"
+      ],
+      "liquor": [
+        "Craft spirits and local distillery products trending 40% above national brands",
+        "Wine club memberships drive predictable recurring revenue",
+        "Specialty and hard-to-find products create destination shopping"
+      ],
+      "tobacco_smoke": [
+        "Alternative nicotine products fastest-growing category",
+        "Premium product mix increases margins while maintaining volume",
+        "Compliance and age verification top customer trust factors"
+      ],
+      "other": [
+        "Community engagement programs increase customer loyalty",
+        "Specialty positioning helps differentiate in competitive markets",
+        "Online presence drives 40% of foot traffic for specialty retail"
+      ]
+    }
+  },
+  "08757": {
+    "avg_rating": 4.28,
+    "store_count": 112,
+    "top_types": [
+      [
+        "foodservice",
+        26
+      ],
+      [
+        "liquor",
+        18
+      ],
+      [
+        "other",
+        18
+      ]
+    ],
+    "demographic": "predominantly white",
+    "nearby_5mi": 112,
+    "trends": {
+      "grocery": [
+        "Plant-based alternatives growing 2x faster than conventional products",
+        "Organic and locally-sourced products seeing 35% higher demand in your area",
+        "Prepared meal sections driving premium basket sizes"
+      ],
+      "convenience": [
+        "Ready-to-eat meals account for 40% of convenience store revenue growth",
+        "Peak traffic windows: 7-9am and 5-7pm on weekdays",
+        "Fresh food offerings differentiate top-performing stores"
+      ],
+      "foodservice": [
+        "Online ordering and delivery now 55% of orders for area restaurants",
+        "Dietary accommodations (vegan, gluten-free) correlate with 45% more reviews",
+        "Ethnic and fusion concepts rated 4.5+ stars in your market"
+      ],
+      "gas": [
+        "Loyalty programs drive 35% increase in repeat customer visits",
+        "Car wash services create additional revenue streams",
+        "Convenience store attachment increases per-visit revenue by 60%"
+      ],
+      "liquor": [
+        "Craft spirits and local distillery products trending 40% above national brands",
+        "Wine club memberships drive predictable recurring revenue",
+        "Tasting events and education increase average transaction by 35%"
+      ],
+      "tobacco_smoke": [
+        "Premium product mix increases margins while maintaining volume",
+        "Loyalty programs critical for customer retention in competitive markets",
+        "Alternative nicotine products fastest-growing category"
+      ],
+      "other": [
+        "Online presence drives 40% of foot traffic for specialty retail",
+        "Specialty positioning helps differentiate in competitive markets",
+        "Unique product selection creates word-of-mouth marketing"
+      ]
+    }
+  },
+  "07726": {
+    "avg_rating": 4.13,
+    "store_count": 61,
+    "top_types": [
+      [
+        "foodservice",
+        22
+      ],
+      [
+        "convenience",
+        9
+      ],
+      [
+        "liquor",
+        8
+      ]
+    ],
+    "demographic": "predominantly white",
+    "nearby_5mi": 61,
+    "trends": {
+      "grocery": [
+        "Weekend shopping patterns show 40% increase vs weekdays",
+        "Prepared meal sections driving premium basket sizes",
+        "Online ordering adoption at 45% among customers in your demographic"
+      ],
+      "convenience": [
+        "Ready-to-eat meals account for 40% of convenience store revenue growth",
+        "Beverage and snack combo promotions increase basket size by 25%",
+        "Mobile payment adoption at 65% in your area"
+      ],
+      "foodservice": [
+        "Weekend brunch driving 30% higher customer ratings and repeat visits",
+        "Ethnic and fusion concepts rated 4.5+ stars in your market",
+        "Online ordering and delivery now 55% of orders for area restaurants"
+      ],
+      "gas": [
+        "Convenience store attachment increases per-visit revenue by 60%",
+        "Premium fuel mix: 30% of transactions in your demographic",
+        "Loyalty programs drive 35% increase in repeat customer visits"
+      ],
+      "liquor": [
+        "Craft spirits and local distillery products trending 40% above national brands",
+        "Tasting events and education increase average transaction by 35%",
+        "Wine club memberships drive predictable recurring revenue"
+      ],
+      "tobacco_smoke": [
+        "Compliance and age verification top customer trust factors",
+        "Accessory and complementary products drive incremental sales",
+        "Alternative nicotine products fastest-growing category"
+      ],
+      "other": [
+        "Specialty positioning helps differentiate in competitive markets",
+        "Online presence drives 40% of foot traffic for specialty retail",
+        "Flexible hours aligned with local customer patterns optimize staffing"
+      ]
+    }
+  }
+}
