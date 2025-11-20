@@ -6,20 +6,11 @@ A value-first onboarding flow designed to help New Jersey store owners instantly
 
 ---
 
-##  Screenshots
+## User Flow
 
-
-### Step 1 — Local Market Overview
 <p align="center">
-  <img src="./instant-insights.png" alt="Local market insights" width="480" style="border-radius: 8px; border: 1px solid #ddd;" />
+  <img src="/njstore-onboarding.gif" alt="Onboarding Flow Demo" width="600" style="border-radius: 8px;" />
 </p>
-
-### Step 1 — Interactive Competitive Map
-<p align="center">
-  <img src="./map.png" alt="Competitive map" width="520" style="border-radius: 8px; border: 1px solid #ddd;" />
-</p>
-
-
 
 ---
 
@@ -153,6 +144,11 @@ From Step 2:
 ## Analytics Architecture (PostHog)
 
 I instrumented events tied directly to actionable product questions.
+
+<p align="center">
+  <img src="/analytics.png" alt="PostHog Live Events" width="700" style="border-radius: 8px; border: 1px solid #ddd;" />
+</p>
+
 
 ### Funnel Events
 ```
