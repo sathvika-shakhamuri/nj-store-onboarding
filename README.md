@@ -14,7 +14,7 @@ A value-first onboarding flow designed to help New Jersey store owners instantly
 
 ---
 
-## 🎯 Product Approach
+##  Product Approach
 
 ### The Problem
 
@@ -188,11 +188,10 @@ Beyond funnel metrics, this instrumentation answers:
 - Does higher competitive density correlate with drop-off or motivation?
 - Are faster completions higher-quality leads?
 - Do users who see similar stores nearby convert better?
-- If they see a product they already carry, does familiarity increase trust and conversion?
 
 ---
 
-## 🎯 Future: Rep-Facing Dashboard
+## Future: Rep-Facing Dashboard
 
 With this data, I would build a **sales intelligence dashboard** showing:
 
@@ -280,7 +279,7 @@ A downloadable or emailable summary including:
 ## Running Locally
 
 ```bash
-git clone <repo-url>
+git clone git@github.com:sathvika-shakhamuri/nj-store-onboarding.git
 cd nj-store-onboarding
 npm install
 npm run dev
