@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NJ Store Onboarding &mdash; Project Overview</title>
+  <style>
+    /* ── Reset & base ─────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { font-size: 16px; scroll-behavior: smooth; }
+    body {
+      font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+      color: #1e293b;
+      background: #f8fafc;
+      line-height: 1.6;
+    }
+    img { max-width: 100%; display: block; }
+    a { color: #047857; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* ── Layout ────────────────────────────────────────────── */
+    .container { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; }
+
+    /* ── Hero ──────────────────────────────────────────────── */
+    .hero {
+      background: linear-gradient(135deg, #064e3b 0%, #047857 50%, #059669 100%);
+      color: #fff;
+      padding: 4rem 0 3.5rem;
+      text-align: center;
+    }
+    .hero-logo { height: 48px; margin: 0 auto 1.5rem; filter: brightness(0) invert(1); }
+    .hero h1 { font-size: 2.75rem; font-weight: 800; letter-spacing: -0.02em; margin-bottom: 0.5rem; }
+    .hero .subtitle { font-size: 1.15rem; color: #a7f3d0; max-width: 640px; margin: 0 auto; }
+    .hero .pills { display: flex; gap: 0.75rem; justify-content: center; margin-top: 1.75rem; flex-wrap: wrap; }
+    .hero .pill {
+      background: rgba(255,255,255,0.15);
+      border: 1px solid rgba(255,255,255,0.25);
+      border-radius: 999px;
+      padding: 0.4rem 1.1rem;
+      font-size: 0.85rem;
+      font-weight: 600;
+      backdrop-filter: blur(4px);
+    }
+
+    /* ── Section shared ────────────────────────────────────── */
+    section { padding: 3.5rem 0; }
+    section:nth-child(even) { background: #fff; }
+    .section-label {
+      text-transform: uppercase;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      color: #047857;
+      margin-bottom: 0.5rem;
+    }
+    .section-title { font-size: 1.75rem; font-weight: 700; margin-bottom: 0.4rem; }
+    .section-desc { color: #64748b; max-width: 640px; margin-bottom: 2rem; }
+
+    /* ── Overview cards ────────────────────────────────────── */
+    .overview-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.25rem;
+    }
+    .overview-card {
+      background: #fff;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 1.5rem;
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+    .overview-card:hover { box-shadow: 0 8px 24px rgba(0,0,0,0.06); transform: translateY(-2px); }
+    .overview-icon {
+      width: 44px; height: 44px;
+      background: #ecfdf5;
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.35rem;
+      margin-bottom: 0.85rem;
+    }
+    .overview-card h3 { font-size: 1rem; font-weight: 700; margin-bottom: 0.3rem; }
+    .overview-card p { font-size: 0.85rem; color: #64748b; }
+
+    /* ── Steps / timeline ──────────────────────────────────── */
+    .steps { display: flex; gap: 2rem; counter-reset: step; flex-wrap: wrap; }
+    .step {
+      flex: 1; min-width: 240px;
+      background: #fff;
+      border: 1px solid #e2e8f0;
+      border-radius: 14px;
+      padding: 1.75rem 1.5rem;
+      position: relative;
+    }
+    .step::before {
+      counter-increment: step;
+      content: counter(step);
+      position: absolute; top: -14px; left: 20px;
+      width: 28px; height: 28px;
+      background: #047857; color: #fff;
+      font-weight: 700; font-size: 0.8rem;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .step h3 { font-size: 1.05rem; font-weight: 700; margin-bottom: 0.5rem; }
+    .step ul { list-style: none; padding: 0; }
+    .step li {
+      font-size: 0.85rem;
+      color: #475569;
+      padding: 0.3rem 0;
+      padding-left: 1.1rem;
+      position: relative;
+    }
+    .step li::before {
+      content: "";
+      position: absolute; left: 0; top: 0.65rem;
+      width: 6px; height: 6px;
+      background: #10b981;
+      border-radius: 50%;
+    }
+
+    /* ── Store types table ─────────────────────────────────── */
+    .store-types {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 0.75rem;
+    }
+    .store-type {
+      text-align: center;
+      background: #f0fdf4;
+      border: 1px solid #bbf7d0;
+      border-radius: 10px;
+      padding: 1rem 0.5rem;
+      font-size: 0.85rem;
+      font-weight: 600;
+      transition: transform 0.15s;
+    }
+    .store-type:hover { transform: scale(1.04); }
+    .store-type span { display: block; font-size: 1.5rem; margin-bottom: 0.35rem; }
+
+    /* ── Product categories ────────────────────────────────── */
+    .categories {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1rem;
+    }
+    .category {
+      background: #fff;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 1.25rem;
+      text-align: center;
+      transition: border-color 0.2s;
+    }
+    .category:hover { border-color: #10b981; }
+    .category .cat-icon { font-size: 1.75rem; margin-bottom: 0.4rem; }
+    .category h4 { font-size: 0.9rem; font-weight: 700; margin-bottom: 0.2rem; }
+    .category p { font-size: 0.75rem; color: #64748b; }
+
+    /* ── Analytics section ─────────────────────────────────── */
+    .analytics-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.25rem;
+    }
+    .analytics-card {
+      background: #fff;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 1.5rem;
+    }
+    .analytics-card h4 { font-size: 0.95rem; font-weight: 700; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.4rem; }
+    .event-list { list-style: none; padding: 0; }
+    .event-list li {
+      font-size: 0.8rem;
+      color: #475569;
+      padding: 0.35rem 0;
+      border-bottom: 1px solid #f1f5f9;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .event-list li:last-child { border-bottom: none; }
+    .event-badge {
+      display: inline-block;
+      background: #ecfdf5;
+      color: #047857;
+      font-size: 0.65rem;
+      font-weight: 700;
+      padding: 0.15rem 0.45rem;
+      border-radius: 4px;
+      font-family: "SF Mono", "Fira Code", monospace;
+      white-space: nowrap;
+    }
+
+    /* ── Key metrics strip ─────────────────────────────────── */
+    .metrics-strip {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.25rem;
+    }
+    .metric {
+      text-align: center;
+      background: #fff;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 1.5rem 1rem;
+    }
+    .metric .value {
+      font-size: 2rem;
+      font-weight: 800;
+      color: #047857;
+    }
+    .metric .label {
+      font-size: 0.8rem;
+      color: #64748b;
+      margin-top: 0.25rem;
+    }
+
+    /* ── ZIP coverage ──────────────────────────────────────── */
+    .zip-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 0.6rem;
+    }
+    .zip-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 0.6rem 0.85rem;
+      font-size: 0.82rem;
+    }
+    .zip-code {
+      font-weight: 700;
+      font-family: "SF Mono", "Fira Code", monospace;
+      color: #047857;
+    }
+
+    /* ── Tech stack ─────────────────────────────────────────── */
+    .tech-pills { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .tech-pill {
+      background: #f1f5f9;
+      border: 1px solid #e2e8f0;
+      border-radius: 999px;
+      padding: 0.4rem 1rem;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: #334155;
+    }
+
+    /* ── Footer ─────────────────────────────────────────────── */
+    footer {
+      background: #064e3b;
+      color: #a7f3d0;
+      text-align: center;
+      padding: 2rem 0;
+      font-size: 0.85rem;
+    }
+    footer strong { color: #fff; }
+
+    /* ── Responsive ─────────────────────────────────────────── */
+    @media (max-width: 768px) {
+      .hero h1 { font-size: 1.75rem; }
+      .metrics-strip { grid-template-columns: repeat(2, 1fr); }
+      .steps { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ═══════════════════════════  HERO  ═══════════════════════════ -->
+<header class="hero">
+  <div class="container">
+    <img src="data/reprally-logo.png" alt="RepRally" class="hero-logo" />
+    <h1>NJ Store Onboarding</h1>
+    <p class="subtitle">
+      A 3-step guided experience that helps independent New Jersey retailers
+      join the RepRally network and discover trending products in their market.
+    </p>
+    <div class="pills">
+      <span class="pill">250+ Brands</span>
+      <span class="pill">Zero Minimums</span>
+      <span class="pill">3&ndash;5 Day Delivery</span>
+      <span class="pill">Local Sales Rep Support</span>
+    </div>
+  </div>
+</header>
+
+<!-- ═══════════════════════  KEY METRICS  ═══════════════════════ -->
+<section>
+  <div class="container">
+    <div class="section-label">At a Glance</div>
+    <h2 class="section-title">Key Metrics</h2>
+    <p class="section-desc">Core numbers that define the onboarding experience.</p>
+    <div class="metrics-strip">
+      <div class="metric">
+        <div class="value">3</div>
+        <div class="label">Onboarding Steps</div>
+      </div>
+      <div class="metric">
+        <div class="value">17</div>
+        <div class="label">Supported ZIP Codes</div>
+      </div>
+      <div class="metric">
+        <div class="value">20K+</div>
+        <div class="label">SKUs Available</div>
+      </div>
+      <div class="metric">
+        <div class="value">8</div>
+        <div class="label">Product Categories</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════  OVERVIEW CARDS  ════════════════════════ -->
+<section>
+  <div class="container">
+    <div class="section-label">What It Does</div>
+    <h2 class="section-title">Platform Overview</h2>
+    <p class="section-desc">
+      The onboarding flow collects store details, personalizes product insights,
+      and connects retailers with a local sales rep &mdash; all in under two minutes.
+    </p>
+    <div class="overview-grid">
+      <div class="overview-card">
+        <div class="overview-icon">&#x1F4CD;</div>
+        <h3>ZIP-Based Intelligence</h3>
+        <p>Real-time market data and growth trends personalized to each retailer's neighborhood.</p>
+      </div>
+      <div class="overview-card">
+        <div class="overview-icon">&#x1F5FA;</div>
+        <h3>Interactive Store Map</h3>
+        <p>Leaflet-powered map showing nearby stores and competitive landscape at a glance.</p>
+      </div>
+      <div class="overview-card">
+        <div class="overview-icon">&#x1F4CA;</div>
+        <h3>Sales Opportunity Score</h3>
+        <p>Composite score (out of 10) factoring ZIP demand, store type fit, product selection, and competition.</p>
+      </div>
+      <div class="overview-card">
+        <div class="overview-icon">&#x1F680;</div>
+        <h3>Personalized Product Recs</h3>
+        <p>Trending products filtered by selected categories, with localized store count and pricing data.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════  3-STEP FLOW  ════════════════════════ -->
+<section>
+  <div class="container">
+    <div class="section-label">User Journey</div>
+    <h2 class="section-title">The 3-Step Onboarding Flow</h2>
+    <p class="section-desc">
+      Each step progressively collects data while rewarding the user with
+      instant, personalized insights.
+    </p>
+    <div class="steps">
+      <div class="step">
+        <h3>Your Store</h3>
+        <ul>
+          <li>Store name &amp; owner info</li>
+          <li>NJ ZIP code with auto-mapping</li>
+          <li>Store type selection (7 types)</li>
+          <li>Email or phone contact</li>
+          <li>Interactive neighborhood map</li>
+          <li>ZIP-specific growth insights</li>
+        </ul>
+      </div>
+      <div class="step">
+        <h3>Your Needs</h3>
+        <ul>
+          <li>Select top-performing categories</li>
+          <li>Real-time insight previews</li>
+          <li>Open-ended excitement prompt</li>
+          <li>Preferred contact method</li>
+          <li>Best time to connect</li>
+        </ul>
+      </div>
+      <div class="step">
+        <h3>Insights &amp; Next Steps</h3>
+        <ul>
+          <li>Sales Opportunity Score</li>
+          <li>Trending products for your area</li>
+          <li>Store similarity panel</li>
+          <li>Local market snapshot</li>
+          <li>24-hour follow-up timeline</li>
+          <li>"Add to catalog" CTAs</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════  STORE TYPES  ═══════════════════════════ -->
+<section>
+  <div class="container">
+    <div class="section-label">Audience</div>
+    <h2 class="section-title">Supported Store Types</h2>
+    <p class="section-desc">
+      The onboarding flow adapts metrics and product recommendations based on
+      store type.
+    </p>
+    <div class="store-types">
+      <div class="store-type"><span>&#x1F6D2;</span> Grocery Store</div>
+      <div class="store-type"><span>&#x1F3EA;</span> Convenience Store</div>
+      <div class="store-type"><span>&#x1F37D;</span> Food Service / Restaurant</div>
+      <div class="store-type"><span>&#x26FD;</span> Gas Station</div>
+      <div class="store-type"><span>&#x1F377;</span> Liquor Store</div>
+      <div class="store-type"><span>&#x1F6AC;</span> Tobacco / Smoke Shop</div>
+      <div class="store-type"><span>&#x1F4E6;</span> Other</div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════  PRODUCT CATEGORIES  ═════════════════════ -->
+<section>
+  <div class="container">
+    <div class="section-label">Catalog</div>
+    <h2 class="section-title">Product Categories</h2>
+    <p class="section-desc">
+      Each category maps to curated trending products with localized metrics
+      including store counts, growth rates, and typical first-order pricing.
+    </p>
+    <div class="categories">
+      <div class="category">
+        <div class="cat-icon">&#x1F37F;</div>
+        <h4>Snacks</h4>
+        <p>Jerky, pistachios, kettle chips</p>
+      </div>
+      <div class="category">
+        <div class="cat-icon">&#x1F964;</div>
+        <h4>Beverages</h4>
+        <p>Energy drinks, coconut water, cold brew</p>
+      </div>
+      <div class="category">
+        <div class="cat-icon">&#x1F957;</div>
+        <h4>Prepared Foods</h4>
+        <p>Protein bars, biltong snacks</p>
+      </div>
+      <div class="category">
+        <div class="cat-icon">&#x1F33F;</div>
+        <h4>Organic Products</h4>
+        <p>Dried fruit mix, sunflower seeds</p>
+      </div>
+      <div class="category">
+        <div class="cat-icon">&#x1F377;</div>
+        <h4>Alcohol / Wine / Spirits</h4>
+        <p>Red wine, tequila, vodka</p>
+      </div>
+      <div class="category">
+        <div class="cat-icon">&#x1F4A8;</div>
+        <h4>Tobacco / Vape</h4>
+        <p>Mint &amp; fruit disposable vapes</p>
+      </div>
+      <div class="category">
+        <div class="cat-icon">&#x26FD;</div>
+        <h4>Fuel / Automotive</h4>
+        <p>Fuel system cleaner, washer fluid</p>
+      </div>
+      <div class="category">
+        <div class="cat-icon">&#x1F4E6;</div>
+        <h4>Other / General</h4>
+        <p>Phone chargers, cleaning kits</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════  ZIP COVERAGE  ═════════════════════════ -->
+<section>
+  <div class="container">
+    <div class="section-label">Coverage</div>
+    <h2 class="section-title">NJ ZIP Code Coverage</h2>
+    <p class="section-desc">
+      17 supported ZIP codes with centroids for map rendering.
+      Any NJ ZIP (07xxx/08xxx) is accepted and mapped to the nearest supported zone.
+    </p>
+    <div class="zip-grid">
+      <div class="zip-item"><span class="zip-code">07004</span> Fairfield</div>
+      <div class="zip-item"><span class="zip-code">07024</span> Fort Lee</div>
+      <div class="zip-item"><span class="zip-code">07030</span> Hoboken</div>
+      <div class="zip-item"><span class="zip-code">07052</span> West Orange</div>
+      <div class="zip-item"><span class="zip-code">07302</span> Jersey City</div>
+      <div class="zip-item"><span class="zip-code">07442</span> Pompton Lakes</div>
+      <div class="zip-item"><span class="zip-code">07726</span> Manalapan</div>
+      <div class="zip-item"><span class="zip-code">07753</span> Neptune</div>
+      <div class="zip-item"><span class="zip-code">07901</span> Summit</div>
+      <div class="zip-item"><span class="zip-code">08016</span> Burlington</div>
+      <div class="zip-item"><span class="zip-code">08204</span> Cape May</div>
+      <div class="zip-item"><span class="zip-code">08401</span> Atlantic City</div>
+      <div class="zip-item"><span class="zip-code">08558</span> Skillman</div>
+      <div class="zip-item"><span class="zip-code">08701</span> Lakewood</div>
+      <div class="zip-item"><span class="zip-code">08757</span> Toms River</div>
+      <div class="zip-item"><span class="zip-code">08822</span> Flemington</div>
+      <div class="zip-item"><span class="zip-code">08854</span> Piscataway</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════  ANALYTICS  ═════════════════════════════ -->
+<section>
+  <div class="container">
+    <div class="section-label">Instrumentation</div>
+    <h2 class="section-title">Analytics &amp; Tracking</h2>
+    <p class="section-desc">
+      Every meaningful interaction is captured via PostHog for funnel analysis,
+      drop-off detection, and engagement optimization.
+    </p>
+    <div class="analytics-grid">
+      <div class="analytics-card">
+        <h4>&#x1F4C8; Funnel Events</h4>
+        <ul class="event-list">
+          <li><span class="event-badge">onboarding_started</span> Session begins</li>
+          <li><span class="event-badge">step1_completed</span> Store info submitted</li>
+          <li><span class="event-badge">step2_completed</span> Preferences saved</li>
+          <li><span class="event-badge">onboarding_completed</span> Full flow finished</li>
+          <li><span class="event-badge">onboarding_abandoned</span> User exits early</li>
+        </ul>
+      </div>
+      <div class="analytics-card">
+        <h4>&#x1F50D; Engagement Events</h4>
+        <ul class="event-list">
+          <li><span class="event-badge">step_viewed</span> Step loaded with context</li>
+          <li><span class="event-badge">field_focused</span> Form field interaction</li>
+          <li><span class="event-badge">store_type_selected</span> Type chosen</li>
+          <li><span class="event-badge">map_interacted</span> Map pan / zoom / click</li>
+          <li><span class="event-badge">insights_viewed</span> Scroll depth tracked</li>
+        </ul>
+      </div>
+      <div class="analytics-card">
+        <h4>&#x1F4DD; Captured Properties</h4>
+        <ul class="event-list">
+          <li><span class="event-badge">store_type</span> Selected store category</li>
+          <li><span class="event-badge">zip</span> Retailer ZIP code</li>
+          <li><span class="event-badge">products_selected</span> Category count</li>
+          <li><span class="event-badge">time_spent</span> Seconds per step</li>
+          <li><span class="event-badge">contact_pref</span> Text / email / phone</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════  TECH STACK  ════════════════════════════ -->
+<section>
+  <div class="container">
+    <div class="section-label">Technology</div>
+    <h2 class="section-title">Tech Stack</h2>
+    <p class="section-desc">Built with modern tooling for fast iteration and reliable performance.</p>
+    <div class="tech-pills">
+      <span class="tech-pill">React 18</span>
+      <span class="tech-pill">TypeScript</span>
+      <span class="tech-pill">Vite</span>
+      <span class="tech-pill">Tailwind CSS</span>
+      <span class="tech-pill">Leaflet Maps</span>
+      <span class="tech-pill">PostHog Analytics</span>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════  FOOTER  ════════════════════════════════ -->
+<footer>
+  <div class="container">
+    <strong>RepRally</strong> &middot; NJ Store Onboarding &middot; Project Overview
+  </div>
+</footer>
+
+</body>
+</html>
